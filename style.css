@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(208, 222, 226);
+}
+.importante{
+    color: rgb(66, 53, 37);
+}
+section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+article{
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+   
+    width:21000px;
+    background-color: whitesmoke;
+}
+.titulos{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
