@@ -12,11 +12,12 @@ section{
     gap: 20px;
     
 }
+
 article{
     padding: 20px;
     border: 2px solid black;
     margin: 10px;
-   
+    
     width:21000px;
     background-color: whitesmoke;
 }
@@ -26,3 +27,25 @@ article{
     justify-content: center;
 
 }
+
+
+/* Estilos para móviles (pantallas de menos de 600px) */
+@media (max-width: 600px) {
+    body{
+     background-color:lightcoral ;
+    }
+    article {
+      width: 100%; /* La tarjeta ocupa todo el ancho en el móvil */
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Hacemos el título un poco más pequeño */
+    }
+    .imagen{
+
+     width:60%;
+    }
+     
+}
+
+
