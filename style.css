@@ -5,11 +5,18 @@ body{
 .importante{
     color: rgb(66, 53, 37);
 }
+main{
+    display: flex; /* Activa Flexbox */
+    flex-direction: row; /* Alinea los hijos horizontalmente (es el valor por defecto) */
+    justify-content: space-between; /* Distribuye las secciones con espacio entre ellas */
+    gap: 30px;
+}
 section{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
     gap: 20px;
+    
     
 }
 
@@ -18,14 +25,22 @@ article{
     border: 2px solid black;
     margin: 10px;
     
-    width:21000px;
+    width:500px;
     background-color: whitesmoke;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+     transition: transform 0.3s, background-color 0.3s;
+}
+article:hover{ 
+    background-color: rgb(224, 240, 255); /* Cambia a azul oscuro al pasar el mouse */
+  transform: scale(1.1);
 }
 .titulos{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-
+    
 }
 
 
