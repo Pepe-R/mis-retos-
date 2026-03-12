@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(208, 222, 226);
+}
+#caja {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  gap: 20px;
+}
